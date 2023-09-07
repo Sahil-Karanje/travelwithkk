@@ -14,6 +14,8 @@ const Hotels = () => {
     <div className='hotels container'>
       <h1>Hotels Recommended for you</h1>
       <div className="hotels_cards">
+        <div className="row">
+          <div className="col-lg-3 col-md-6 col-12 pb-lg-5 pb-3">
         <div className="hotel">
           <figure>
             <img src={hotel1} alt="" />
@@ -26,6 +28,8 @@ const Hotels = () => {
             From : <span>Rs.2000/-</span> per night
           </div>
         </div>
+          </div>
+          <div className="col-lg-3 col-md-6 col-12 pb-lg-5 pb-3">
         <div className="hotel">
           <figure>
 
@@ -38,7 +42,8 @@ const Hotels = () => {
             <p>stars</p>
             From : <span>Rs.2000/-</span> per night
           </div>
-        </div>
+        </div></div>
+          <div className="col-lg-3 col-md-6 col-12 pb-lg-5 pb-3">
         <div className="hotel">
           <figure>
             <img src={hotel3} alt="" />
@@ -50,7 +55,8 @@ const Hotels = () => {
             <p>stars</p>
             From : <span>Rs.2000/-</span> per night
           </div>
-        </div>
+        </div></div>
+          <div className="col-lg-3 col-md-6 col-12 pb-lg-5 pb-3">
         <div className="hotel">
           <figure>
             <img src={hotel4} alt="" />
@@ -62,7 +68,8 @@ const Hotels = () => {
             <p>stars</p>
             From : <span>Rs.2000/-</span> per night
           </div>
-        </div>
+        </div></div>
+          <div className="col-lg-3 col-md-6 col-12 pb-lg-5 pb-3">
         <div className="hotel">
           <figure>
             <img src={hotel5} alt="" />
@@ -74,7 +81,8 @@ const Hotels = () => {
             <p>stars</p>
             From : <span>Rs.2000/-</span> per night
           </div>
-        </div>
+        </div></div>
+          <div className="col-lg-3 col-md-6 col-12 pb-lg-5 pb-3">
         <div className="hotel">
           <figure>
             <img src={hotel6} alt="" />
@@ -86,7 +94,8 @@ const Hotels = () => {
             <p>stars</p>
             From : <span>Rs.2000/-</span> per night
           </div>
-        </div>
+        </div></div>
+          <div className="col-lg-3 col-md-6 col-12 pb-lg-5 pb-3">
         <div className="hotel">
           <figure>
             <img src={hotel7} alt="" />
@@ -98,7 +107,8 @@ const Hotels = () => {
             <p>stars</p>
             From : <span>Rs.2000/-</span> per night
           </div>
-        </div>
+        </div></div>
+          <div className="col-lg-3 col-md-6 col-12 pb-lg-5 pb-3">
         <div className="hotel">
           <figure>
             <img src={hotel8} alt="" />
@@ -110,10 +120,11 @@ const Hotels = () => {
             <p>stars</p>
             From : <span>Rs.2000/-</span> per night
           </div>
+        </div></div>
         </div>
       </div>
     </div>
   )
 }
 
-export default Hotels
+export default Hotels

@@ -34,6 +34,7 @@
 .hotel figure img{
     width: 100%;
     transition: 1s;
+    border-radius: 10px;
 }
 
 .hotel figure img:hover{
