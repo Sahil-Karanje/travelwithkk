@@ -1,3 +1,8 @@
+#about_banner{
+    position: relative;
+    width: 100%;
+}
+
 .company_img{
     display: flex;
     padding: 10px;

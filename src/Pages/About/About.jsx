@@ -7,9 +7,9 @@ import './About.css'
 const About = () => {
     return (
         <div>
-            <section id="home_banner">
+            <div id="about_banner">
                 <img src={taj} alt="abImg" style={{ width: "100%" }} />
-            </section>
+            </div>
             <div className="container pt-5">
 
 
