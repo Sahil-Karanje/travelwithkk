@@ -7,7 +7,6 @@
     width: 100%;
     border-radius: 20px;
     background-color: #FFF9F0;
-    /* transition: 1s; */
     transition: background-color 0.5s, color 0.5s;
     color: #999999;
 }
@@ -23,7 +22,12 @@ background: linear-gradient(43deg, rgba(205,28,64,1) 0%, rgba(231,77,62,1) 53%, 
     width: 50%;
 }
 .activity-img{
+    color: #999999;
+    fill: #999999;
     width: 100%;
+}
+.activity-img path{
+    fill: #999999;
 }
 .activity-name{
     font-size: 30px;
