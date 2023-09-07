@@ -1,9 +1,10 @@
 import './App.css';
+import AllRoutes from './Router.jsx';
 
 function App() {
   return (
     <div className="App">
-      travelwithkk
+      <AllRoutes />
     </div>
   );
 }
