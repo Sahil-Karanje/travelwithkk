@@ -144,8 +144,7 @@ const Footer = () => {
                             <figure className="footer-logo">
                                 <img src={Logo} alt="" />
                             </figure>
-                            <span className="footer-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias
-                                nihil rem ipsum deleniti minima provident ut doloremque adipisci quae perferendis?</span>
+                            <span className="footer-description"> your gateway to unforgettable adventures and seamless travel experiences. With a passion for exploration and a commitment to excellence.</span>
                             <div className="read-more">
                                 <Link to="/">Read More</Link>
                             </div>
