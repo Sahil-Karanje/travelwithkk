@@ -1,0 +1,11 @@
+#home_banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+}
+
+#home_banner video{
+    width: 100%;
+}
+
