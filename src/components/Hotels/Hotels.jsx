@@ -21,7 +21,7 @@ const Hotels = () => {
               </figure>
               <div className="hotel_text">
                 <h3>Redac Gateway Hotel</h3>
-                <p>Los Angeles</p>
+                <p>Mumbai</p>
                 <hr />
                 <p>stars</p>
                 From : <span>Rs.2000/-</span> per night
@@ -36,12 +36,13 @@ const Hotels = () => {
               </figure>
               <div className="hotel_text">
                 <h3>Eastern Discovery</h3>
-                <p>Los Angeles</p>
+                <p>Mumbai</p>
                 <hr />
                 <p>stars</p>
                 From : <span>Rs.2000/-</span> per night
               </div>
-            </div></div>
+            </div>
+          </div>
           <div className="col-lg-3 col-md-6 col-12 pb-lg-5 pb-3">
             <div className="hotel">
               <figure>
@@ -49,12 +50,13 @@ const Hotels = () => {
               </figure>
               <div className="hotel_text">
                 <h3>Southwest States</h3>
-                <p>Los Angeles</p>
+                <p>Pune</p>
                 <hr />
                 <p>stars</p>
                 From : <span>Rs.2000/-</span> per night
               </div>
-            </div></div>
+            </div>
+          </div>
           <div className="col-lg-3 col-md-6 col-12 pb-lg-5 pb-3">
             <div className="hotel">
               <figure>
@@ -62,12 +64,13 @@ const Hotels = () => {
               </figure>
               <div className="hotel_text">
                 <h3>TreeHouse Villas</h3>
-                <p>Los Angeles</p>
+                <p>Delhi</p>
                 <hr />
                 <p>stars</p>
                 From : <span>Rs.2000/-</span> per night
               </div>
-            </div></div>
+            </div>
+          </div>
           <div className="col-lg-3 col-md-6 col-12 pb-lg-5 pb-3">
             <div className="hotel">
               <figure>
@@ -75,12 +78,13 @@ const Hotels = () => {
               </figure>
               <div className="hotel_text">
                 <h3>Vnahomes Aparhotel</h3>
-                <p>Los Angeles</p>
+                <p>Delhi</p>
                 <hr />
                 <p>stars</p>
                 From : <span>Rs.2000/-</span> per night
               </div>
-            </div></div>
+            </div>
+          </div>
           <div className="col-lg-3 col-md-6 col-12 pb-lg-5 pb-3">
             <div className="hotel">
               <figure>
@@ -88,12 +92,13 @@ const Hotels = () => {
               </figure>
               <div className="hotel_text">
                 <h3>Furama Chiang Mai</h3>
-                <p>Los Angeles</p>
+                <p>Pune</p>
                 <hr />
                 <p>stars</p>
                 From : <span>Rs.2000/-</span> per night
               </div>
-            </div></div>
+            </div>
+          </div>
           <div className="col-lg-3 col-md-6 col-12 pb-lg-5 pb-3">
             <div className="hotel">
               <figure>
@@ -101,12 +106,13 @@ const Hotels = () => {
               </figure>
               <div className="hotel_text">
                 <h3>Hotel WBF Hommachi</h3>
-                <p>Los Angeles</p>
+                <p>Hyderabad</p>
                 <hr />
                 <p>stars</p>
-                From : <span>Rs.2000/-</span> per night
+                From : <span>Rs.5999/-</span> per night
               </div>
-            </div></div>
+            </div>
+          </div>
           <div className="col-lg-3 col-md-6 col-12 pb-lg-5 pb-3">
             <div className="hotel">
               <figure>
@@ -114,12 +120,13 @@ const Hotels = () => {
               </figure>
               <div className="hotel_text">
                 <h3>Parian Holiday Villas</h3>
-                <p>Los Angeles</p>
+                <p>Mumbai</p>
                 <hr />
                 <p>stars</p>
-                From : <span>Rs.2000/-</span> per night
+                From : <span>Rs.6000/-</span> per night
               </div>
-            </div></div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

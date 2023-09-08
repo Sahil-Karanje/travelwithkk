@@ -6,12 +6,12 @@
     flex-direction: column;
 }
 
-.hotels_cards {
+/* .hotels_cards {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-}
+} */
 
 .hotel {
     display: flex;

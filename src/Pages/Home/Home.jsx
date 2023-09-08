@@ -75,6 +75,7 @@ const Home = () => {
                 <div className="d_card">
                   <img src={mumbai} alt="img" />
                   <div className="destination_text">mumbai</div>
+                  <div className="overlay">mumbai</div>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 col-12 pb-lg-4 pb-3">

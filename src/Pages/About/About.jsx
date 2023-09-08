@@ -3,6 +3,9 @@ import about from '../../Assets/Images/about.png'
 import abImg from '../../Assets/Images/ab_1.png'
 import logo from '../../Assets/Images/kk.png'
 import './About.css'
+import img1 from '../../Assets/Images/agra.png'
+import img2 from '../../Assets/Images/kashmir.png'
+import img3 from '../../Assets/Images/leh.png'
 
 const About = () => {
     return (
@@ -10,6 +13,7 @@ const About = () => {
             <div id="about_banner">
                 <img src={about} alt="abImg" style={{ width: "100%" }} />
             </div>
+
             <div className="container pt-5">
 
 
@@ -34,6 +38,27 @@ const About = () => {
                     </div>
                 </section>
             </div>
+
+            <section id="shoes" className='hidden' style={{ marginBottom: "50px" }}>
+                <h1 style={{ textAlign: 'center', margin: '50px 0' }}>Get Peace at these place</h1>
+                <div className="d-flex justify-content-space-between align-items-center w-100">
+                    <div className="shoesImgs d-flex flex-column justify-content-center align-items-center" style={{ width: '50%' }}>
+                        <div className="s1 d-flex justify-content-end" style={{ width: '100%' }}>
+                            <img src={img1} alt="" className='slidingImage1' style={{ width: '35%',borderRadius:"10px" }} />
+                        </div>
+                        <div className="s2 d-flex justify-content-center" style={{ width: '100%' }}>
+                            <img src={img2} alt="" className='slidingImage2' style={{ width: '35%',borderRadius:"10px", margin:"10px 0" }} />
+                        </div>
+                        <div className="s3 d-flex justify-content-end" style={{ width: '100%' }}>
+                            <img src={img3} alt="" className='slidingImage3' style={{ width: '35%',borderRadius:"10px" }} />
+                        </div>
+                    </div>
+
+                    <div className="shoeText d-flex justify-content-center align-items-center" style={{ width: '50%' }}>
+                        <img src={logo} alt="" style={{width:"40%"}} />
+                    </div>
+                </div>
+            </section>
         </div>
     )
 }
