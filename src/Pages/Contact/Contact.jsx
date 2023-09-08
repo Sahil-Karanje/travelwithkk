@@ -3,6 +3,7 @@ import './Contact.css'
 import contact from "../../Assets/Images/contact.png"
 import { CiLocationOn, CiMail } from "react-icons/ci"
 import { BiPhoneCall } from "react-icons/bi"
+import Booknow from '../../components/Booking/Booknow'
 
 const Contact = () => {
   return (
@@ -11,7 +12,7 @@ const Contact = () => {
         <img src={contact} alt="abImg" style={{ width: "100%" }} />
       </div>
       <section>
-        <div className="container">
+        <div className="container pb-5">
           <div className="contact_container">
             <div className="row">
               <div className="col-lg-6 col-12">
@@ -49,6 +50,7 @@ const Contact = () => {
           </div>
         </div>
       </section>
+      <Booknow/>
     </div>
   )
 }
