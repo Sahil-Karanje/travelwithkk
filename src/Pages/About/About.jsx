@@ -25,9 +25,9 @@ const About = () => {
                     </div>
                 </section>
                 <section id="place" className='hidden' style={{ marginBottom: "50px" }}>
-                    <h1 style={{ textAlign: 'center', margin: '50px 0' }}>Get Peace at these place</h1>
-                    <div className="d-flex justify-content-space-between align-items-center w-100">
-                        <div className="shoesImgs d-flex flex-column justify-content-center align-items-center" style={{ width: '50%' }}>
+                    <h1 style={{ textAlign: 'center', margin: '50px 0' }}>Let's pack bags</h1>
+                    <div className="d-flex justify-content-space-between align-items-center " style={{width:"100%"}}>
+                        <div className="d-flex flex-column justify-content-center align-items-center" style={{ width: '40%' }}>
                             <div className="s1 d-flex justify-content-end" style={{ width: '100%' }}>
                                 <img src={img1} alt="" className='slidingImage1' style={{ width: '35%', borderRadius: "10px" }} />
                             </div>
@@ -39,8 +39,8 @@ const About = () => {
                             </div>
                         </div>
 
-                        <div className="shoeText d-flex justify-content-center align-items-center" style={{ width: '50%' }}>
-                            <img src={logo} alt="" style={{ width: "40%" }} />
+                        <div className="d-flex justify-content-center align-items-center" style={{ width: '60%' }}>
+                            <h6 style={{ textAlign: 'center', width: '60%', marginLeft:"10px" }}>Travel makes one modest. You see what a tiny place you occupy in the world.</h6>
                         </div>
                     </div>
                 </section>
