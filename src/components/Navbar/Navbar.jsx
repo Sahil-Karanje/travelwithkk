@@ -1,8 +1,10 @@
 import React,{useEffect} from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css'; // Import your CSS file
+import { useAuth0 } from "@auth0/auth0-react";
 
 function Navbar() {
+  const { loginWithPopup, logout, isAuthenticated } = useAuth0();
   useEffect(()=>{
     window.addEventListener("scroll", () => {
       if (window.scrollY > 80) {
@@ -58,7 +60,10 @@ function Navbar() {
                                 <Link className="nav-link" to="/contact">Contact </Link>
                             </li>
                             <li className="nav-item ">
-                                <Link className="nav-link" to="/login">Login </Link>
+                              {
+                                isAuthenticated ? (<Link className="nav-link" to="" onClick={() => logout()}>LogOut </Link>):(<Link className="nav-link" to="" onClick={() => loginWithPopup()}>Login </Link>)
+                              }
+                                
                             </li>
 
                         </ul>

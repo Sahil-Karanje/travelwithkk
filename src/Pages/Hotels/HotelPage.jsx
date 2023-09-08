@@ -5,9 +5,11 @@ const HotelPage = () => {
     return (
         <div>
             <div className="hotel_banner">
-                <img src={HotelImg} alt="" style={{width:"100%"}} />
+                <img src={HotelImg} alt="" style={{ width: "100%" }} />
             </div>
-            <Hotels/>
+            <section>
+                <Hotels />
+            </section>
         </div>
     )
 }
