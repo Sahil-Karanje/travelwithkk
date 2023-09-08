@@ -86,6 +86,7 @@
 .d_card img:hover{
     scale: 1.1;
     transition: 1s;
+    cursor: pointer;
 }
 
 .off-card{
@@ -94,6 +95,7 @@
 }
 .off-card-img:hover{
     scale: 1.1;
+    cursor: pointer;
 }
 .off-card-img{
     transition: .5s;

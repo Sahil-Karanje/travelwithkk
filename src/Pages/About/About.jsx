@@ -1,5 +1,5 @@
 import React from 'react'
-import taj from '../../Assets/Images/taj.png'
+import about from '../../Assets/Images/about.png'
 import abImg from '../../Assets/Images/ab_1.png'
 import logo from '../../Assets/Images/kk.png'
 import './About.css'
@@ -8,7 +8,7 @@ const About = () => {
     return (
         <div>
             <div id="about_banner">
-                <img src={taj} alt="abImg" style={{ width: "100%" }} />
+                <img src={about} alt="abImg" style={{ width: "100%" }} />
             </div>
             <div className="container pt-5">
 

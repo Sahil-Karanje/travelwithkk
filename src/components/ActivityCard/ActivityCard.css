@@ -14,6 +14,7 @@
     color: #fff;
 background: rgb(205,28,64);
 background: linear-gradient(43deg, rgba(205,28,64,1) 0%, rgba(231,77,62,1) 53%, rgba(255,125,60,1) 100%);
+cursor: pointer;
 }
 .activity-div:hover .activity-img{
     color: #fff;

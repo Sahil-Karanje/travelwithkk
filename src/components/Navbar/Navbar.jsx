@@ -46,19 +46,19 @@ function Navbar() {
                     <div className="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
                         <ul className="navbar-nav mr-auto">
                             <li className="nav-item  ">
-                                <Link className="nav-link active" to="/">Home </Link>
+                                <Link className="nav-link" to="/">Home </Link>
                             </li>
                             <li className="nav-item ">
                                 <Link className="nav-link" to="/about-us">About Us </Link>
                             </li>
                             <li className="nav-item ">
-                                <Link className="nav-link" to="/our-team">Hotels </Link>
+                                <Link className="nav-link" to="/hotels">Hotels </Link>
                             </li>
                             <li className="nav-item ">
                                 <Link className="nav-link" to="/contact">Contact </Link>
                             </li>
                             <li className="nav-item ">
-                                <Link className="nav-link" to="/trailers">Login </Link>
+                                <Link className="nav-link" to="/login">Login </Link>
                             </li>
 
                         </ul>

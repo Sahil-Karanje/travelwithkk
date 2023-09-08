@@ -112,6 +112,7 @@ const Home = () => {
       </section>
 
       <section className="hotels">
+      <h1>Hotels Recommended for you</h1>
         <Hotels/>
       </section>
     </div>
