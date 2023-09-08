@@ -45,6 +45,12 @@
     animation-iteration-count: infinite;
 }
 
+#animated_logo{
+    animation-name: upDown;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
 @keyframes slide {
     0% {
         transform: translateX(50%);
@@ -70,5 +76,18 @@
 
     100% {
         transform: translateX(0%);
+    }
+}
+@keyframes upDown {
+    0% {
+        transform: translateY(0%);
+    }
+
+    50% {
+        transform: translateY(-15%);
+    }
+
+    100% {
+        transform: translateY(0%);
     }
 }
