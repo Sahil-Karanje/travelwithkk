@@ -61,7 +61,7 @@ function Navbar() {
                   </li>
                   <li className="nav-item ">
                     {
-                      isAuthenticated ? (<Link className="nav-link" to="" onClick={() => logout()}>LogOut </Link>) : (<Link className="nav-link" to="" onClick={() => loginWithPopup()}>Login </Link>)
+                      isAuthenticated ? (<Link className="nav-link" to="/user"  >User </Link>) : (<Link className="nav-link" to="" onClick={() => loginWithPopup()}>Login </Link>)
                     }
 
                   </li>
