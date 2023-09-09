@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../../components/Navbar/Navbar'
 import { useAuth0 } from "@auth0/auth0-react";
-import './user.css'
+import './User.css' 
 
 const User = () => {
 
@@ -13,7 +13,7 @@ const User = () => {
 
   return (
     <div >
-      <Navbar />
+      <Navbar /> 
       <div className='userInfoContainer d-flex justify-content-center align-items-center flex-column'>
         {
           !isAuthenticated && (

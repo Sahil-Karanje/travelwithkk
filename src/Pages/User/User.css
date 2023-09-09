@@ -1,3 +1,7 @@
+body{
+    background-color: rgb(147, 147, 147);
+}
+
 .userInfoContainer{
     height: 90vh;
 }
