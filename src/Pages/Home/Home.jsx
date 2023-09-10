@@ -21,6 +21,7 @@ import hotelimg2 from '../../Assets/Images/hotels/h2.png'
 import hotelimg3 from '../../Assets/Images/hotels/h3.png'
 import hotelimg4 from '../../Assets/Images/hotels/h4.png'
 import Booknow from '../../components/Booking/Booknow'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
 
@@ -83,10 +84,12 @@ const Home = () => {
           <div className="destinations_cards">
             <div className="row">
               <div className="col-lg-4 col-md-6 col-12 pb-lg-4 pb-3" data-aos="zoom-in-up" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
-                <div className="d_card">
-                  <img src={mumbai} alt="img" />
-                  <div className="destination_text">mumbai</div>
-                </div>
+                <Link to="/mumbai">
+                  <div className="d_card">
+                    <img src={mumbai} alt="img" />
+                    <div className="destination_text">mumbai</div>
+                  </div>
+                </Link>
               </div>
               <div className="col-lg-4 col-md-6 col-12 pb-lg-4 pb-3" data-aos="zoom-in-up" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
                 <div className="d_card">
@@ -124,12 +127,12 @@ const Home = () => {
 
       <section className="hotels">
         <h2>Hotels Recommended for you</h2>
-        <Hotels hotelimg1={hotelimg1} hotelimg2={hotelimg2} hotelimg3={hotelimg3} hotelimg4={hotelimg4} 
-        hotelname1="Taj Hotel" hotelname2="Redac Gateway" hotelname3="Eastern Discovery" hotelname4="Sothwest States" location1="Mumbai" location2="Pune" location3="Delhi" location4="Banlore" />
+        <Hotels hotelimg1={hotelimg1} hotelimg2={hotelimg2} hotelimg3={hotelimg3} hotelimg4={hotelimg4}
+          hotelname1="Taj Hotel" hotelname2="Redac Gateway" hotelname3="Eastern Discovery" hotelname4="Sothwest States" location1="Mumbai" location2="Pune" location3="Delhi" location4="Banlore" hotelprice1="2000" hotelprice2="2000" hotelprice3="2000" hotelprice4="2000" />
       </section>
-      <Booknow/>
+      <Booknow />
     </div>
   )
 }
 
-export default Home
+export default Home

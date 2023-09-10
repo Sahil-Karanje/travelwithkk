@@ -15,22 +15,22 @@ const HotelPage = () => {
             <section className="hotels-section">
                 <h2>Hotels In Mumbai</h2>
                 <Hotels hotelimg1={hotelimg1} hotelimg2={hotelimg2} hotelimg3={hotelimg3} hotelimg4={hotelimg4}
-                    hotelname1="Taj Hotel" hotelname2="Redac Gateway" hotelname3="Eastern Discovery" hotelname4="Sothwest States" location1="Mumbai" location2="Mumbai" location3="Mumbai" location4="Mumbai" />
+                    hotelname1="Taj Hotel" hotelname2="Redac Gateway" hotelname3="Eastern Discovery" hotelname4="Sothwest States" location1="Mumbai" location2="Mumbai" location3="Mumbai" location4="Mumbai" hotelprice1="2000" hotelprice2="2000" hotelprice3="2000" hotelprice4="2000" />
             </section>
             <section className="hotels-section">
                 <h2>Hotels In Pune</h2>
                 <Hotels hotelimg1={hotelimg1} hotelimg2={hotelimg2} hotelimg3={hotelimg3} hotelimg4={hotelimg4}
-                    hotelname1="Taj Hotel" hotelname2="Redac Gateway" hotelname3="Eastern Discovery" hotelname4="Sothwest States" location1="Pune" location2="Pune" location3="Pune" location4="Pune" />
+                    hotelname1="Taj Hotel" hotelname2="Redac Gateway" hotelname3="Eastern Discovery" hotelname4="Sothwest States" location1="Pune" location2="Pune" location3="Pune" location4="Pune" hotelprice1="2000" hotelprice2="2000" hotelprice3="2000" hotelprice4="2000" />
             </section>
             <section className="hotels-section">
                 <h2>Hotels In Delhi</h2>
                 <Hotels hotelimg1={hotelimg1} hotelimg2={hotelimg2} hotelimg3={hotelimg3} hotelimg4={hotelimg4}
-                    hotelname1="Taj Hotel" hotelname2="Redac Gateway" hotelname3="Eastern Discovery" hotelname4="Sothwest States" location1="Delhi" location2="Delhi" location3="Delhi" location4="Delhi" />
+                    hotelname1="Taj Hotel" hotelname2="Redac Gateway" hotelname3="Eastern Discovery" hotelname4="Sothwest States" location1="Delhi" location2="Delhi" location3="Delhi" location4="Delhi" hotelprice1="2000" hotelprice2="2000" hotelprice3="2000" hotelprice4="2000" />
             </section>
             <section className="hotels-section">
                 <h2>Hotels In Banglore</h2>
                 <Hotels hotelimg1={hotelimg1} hotelimg2={hotelimg2} hotelimg3={hotelimg3} hotelimg4={hotelimg4}
-                    hotelname1="Taj Hotel" hotelname2="Redac Gateway" hotelname3="Eastern Discovery" hotelname4="Sothwest States" location1="Banglore" location2="Banglore" location3="Banglore" location4="Banglore" />
+                    hotelname1="Taj Hotel" hotelname2="Redac Gateway" hotelname3="Eastern Discovery" hotelname4="Sothwest States" location1="Banglore" location2="Banglore" location3="Banglore" location4="Banglore" hotelprice1="2000" hotelprice2="2000" hotelprice3="2000" hotelprice4="2000" />
             </section>
         </div>
     )
